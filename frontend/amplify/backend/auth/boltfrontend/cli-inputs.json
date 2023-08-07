@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "boltfrontend_identitypool_8da63f23",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "boltfrontend",
+    "sharedId": "8da63f23",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}

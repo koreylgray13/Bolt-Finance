@@ -1,0 +1,21 @@
+{
+    "appName": "boltfrontend",
+    "roleName": "pinpointLambdaRolecb6c2af6",
+    "cloudformationPolicyName": "cloudformationPolicycb6c2af6",
+    "cloudWatchPolicyName": "cloudWatchPolicycb6c2af6",
+    "pinpointPolicyName": "pinpointPolicycb6c2af6",
+    "authPolicyName": "pinpoint_amplify_cb6c2af6",
+    "unauthPolicyName": "pinpoint_amplify_cb6c2af6",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
